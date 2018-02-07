@@ -1,0 +1,93 @@
+@import variables
+@import fonts
+
+*
+  margin: 0
+  padding: 0
+  box-sizing: border-box
+  font-family: Arial, Helvetica, sans-serif
+  text-decoration: none
+  list-style-type: none
+
+.container
+  width: 100%
+  max-width: 1170px
+  margin: 0 auto
+
+.header-wpapper
+  height: 1080px
+  background: url("../img/background1.jpg")
+  padding: 0 15px
+
+.headerMenu
+  padding-top: 60px
+  display: flex
+  justify-content: space-between
+
+.headerLogo
+  color: #fff
+  font-size: 48px
+  font-family: Leckerli_One
+
+
+.navmenu__list
+  display: flex
+  width: 700px
+  padding-top: 21px
+  // height: 48px
+  justify-content: space-between
+
+.navmenu__link
+  box-sizing: border-box
+  color: #fff
+  text-transform: uppercase
+  display: block
+  padding: 0px 15px 4px 15px
+  line-height: 29px
+  font-weight: 18px
+  letter-spacing: 2.56px
+  box-sizing: border-box
+  font-family: YanoneKaffeesatz
+  font-weight: regular
+  font-size: 18px
+  border-bottom: 1px solid transparent
+  transition: border-bottom .5s
+  &:hover
+    border-bottom: 1px solid #fac122
+    
+.navmenu__link-active
+  border-bottom: 1px solid #fac122
+
+.headerText-container
+  display: flex
+  flex-direction: column
+  align-items: center
+  margin-top: 240px
+
+.headerText1
+  color: #fac122
+
+.headerText2
+  color: #fff
+  margin-top: 30px
+
+.headerText3
+  color: #fff
+  text-align: center
+  margin-top: 50px
+  a
+    color: #fff
+
+.bookBtn
+  display: block
+  width: 230px
+  height: 70px
+  color: #fff
+  background-color: $buttons-color
+  text-align: center
+  line-height: 70px
+  border-radius: 35px
+  text-transform: uppercase
+  font-weight: bold
+
+
